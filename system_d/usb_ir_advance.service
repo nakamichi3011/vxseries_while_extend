@@ -1,0 +1,10 @@
+[Unit]
+Description = usb_ir_advance
+
+[Service]
+ExecStart = /Downloads/bto_ir_advanced_cmd/usb_ir_advance.py
+Restart = always
+Type = simple
+
+[Install]
+WantedBy = multi-user.target
